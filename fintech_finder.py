@@ -135,7 +135,7 @@ account=generate_account()
 ##########################################
 
 # Write the client's Ethereum account address to the sidebar
-st.sidebar.write(account.address)
+st.sidebar.write("Client Address: ",account.address)
 
 ##########################################
 # Step 1 - Part 5:
@@ -147,7 +147,7 @@ st.sidebar.write(account.address)
 # Call `get_balance` function and pass it your account address
 # Write the returned ether balance to the sidebar
 # YOUR CODE HERE
-
+st.sidebar.write("Client Ether Balance: ",get_balance(w3,account.address))
 ##########################################
 
 # Create a select box to chose a FinTech Hire candidate
@@ -238,11 +238,11 @@ st.sidebar.markdown("## Total Wage in Ether")
 # rate from the candidate database (`candidate_database[person][3]`) by the
 # value of the `hours` variable
 # YOUR CODE HERE
-
+wage = candidate_database[person][3] * hours
 # @TODO
 # Write the `wage` calculation to the Streamlit sidebar
 # YOUR CODE HERE
-
+st.sidebar.write("Total rate for selected person and hours: ", wage)
 ##########################################
 # Step 2 - Part 2:
 # * Call the `send_transaction` function and pass it three parameters:
@@ -269,7 +269,7 @@ if st.sidebar.button("Send Transaction"):
     # Your `account`, the `candidate_address`, and the `wage` as parameters
     # Save the returned transaction hash as a variable named `transaction_hash`
     # YOUR CODE HERE
-
+    transaction_hash = send_transaction(w3,account,candidate_address,wage)
     # Markdown for the transaction hash
     st.sidebar.markdown("#### Validated Transaction Hash")
 
