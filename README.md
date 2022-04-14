@@ -51,11 +51,13 @@ Let's not check the account balance in the client's account after the above tran
 
 ![Final.PNG](./Images/Final.PNG)
 
-==We can see a difference of 0.01 from initial and final, rounded to second decimal.==
+==We can see a difference  from initial and final.==
 
 Here is a snapshot of all transactions under the client's Gnache account -
 
 ![Transdet.PNG](./Images/Transdet.PNG)
+
+Transaction detail of the transaction executed,
 
 ![Transdet1.PNG](./Images/Transdet1.PNG)
 
