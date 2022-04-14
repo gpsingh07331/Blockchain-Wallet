@@ -39,7 +39,7 @@ Here we see the initial account balance in the client's account, observed in Gna
 
 ![initial.PNG](./Images/initial.PNG)
 
-After We have selected the candidate, Jo, in this scenario and selected the number of hours to hire for, 0.08, in this scenario, we have decided to hire the candidate and execute the send transaction action.
+After We have selected the candidate, Jo (address -0x5669D82115b056BCBc5ae98fBD11b818246EA43b ), in this scenario and selected the number of hours to hire for, 0.08, in this scenario, we have decided to hire the candidate and execute the send transaction action.
 
 ![Trans.PNG](./Images/Trans.PNG)
 
