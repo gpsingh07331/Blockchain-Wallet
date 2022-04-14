@@ -274,7 +274,7 @@ if st.sidebar.button("Send Transaction"):
     st.sidebar.markdown("#### Validated Transaction Hash")
 
     # Write the returned transaction hash to the screen
-    st.sidebar.write(transaction_hash)
+    st.sidebar.write(transaction_hash.hex())
 
     # Celebrate your successful payment
     st.balloons()
