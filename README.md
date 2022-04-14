@@ -47,7 +47,7 @@ We can see above, the transaction as returned by our application and match it ag
 
 #### Inspect the Transaction
 
-Let's not check the account balance in the client's account after the above transaction,
+Let's now check the account balance in the client's account after the above transaction,
 
 ![Final.PNG](./Images/Final.PNG)
 
